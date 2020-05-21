@@ -56,15 +56,12 @@ export default class Products extends React.Component {
                 <div className="productsList">
                     <div className="products">
                     {  currentTodo.map((pd,index)=>{
-                    
-                    return <p key={index}>{pd.title}</p>
+                     return <p key={index}>{pd.title}</p>
                 })  }
                 </div>
                         <div className="pagination">
                             <span>Page {currentPage} Of {pageNumbers.length}</span>
-                       
-                            {pageNumbers}
-                       
+                                {pageNumbers}
                         </div>
                 </div>
             
