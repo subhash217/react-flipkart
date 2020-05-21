@@ -28,9 +28,7 @@ export default class Products extends React.Component {
         .then(res=>res.json())
         .then(data=>{
             this.setState({products:data})
-            // console.log(this.state.products)
-           
-        });
+           });
     }
     render(){
 
@@ -61,9 +59,7 @@ export default class Products extends React.Component {
                 </div>
                         <div className="pagination">
                             <span>Page {currentPage} Of {pageNumbers.length}</span>
-                       
-                            {pageNumbers}
-                       
+                                {pageNumbers}
                         </div>
                 </div>
             
