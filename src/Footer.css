@@ -1,0 +1,106 @@
+.footerContainer{
+    font-size: 14px;
+    box-sizing: border-box  ;
+    /* margin-top:40px; */
+    background-color: #172337;
+    color:#fff;
+    height:300px;
+    position: relative;
+    top: 25px;
+   
+
+}
+.footerTop{
+    display:flex;
+    justify-content: space-evenly;
+    box-sizing: border-box  ;
+    height: 220px;
+    margin-left: 23px;
+    width: 97% !important;
+    padding-top: 40px;
+}
+.about span{
+    display:block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+.about div{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 9px;
+}
+.help span{
+    display:block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+.help div{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+}
+.policy span{
+    display:block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+.policy div{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+}
+.social span{
+    display:block;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 2;
+}
+.social div{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+}
+.mailBox{
+    border-left: 1px solid #454d5e;
+    padding: 0 25px;
+}
+.mailBox p{
+    font-size: 12px;
+    /* border-left: 1px solid #454d5e; */
+    margin:0;
+    line-height: 1.5;
+}
+.mail{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+}
+.registeredBox{
+    padding: 0 25px;
+}
+.registeredBox p{
+    font-size: 12px;
+    /* border-left: 1px solid #454d5e; */
+    margin:0;
+    line-height: 1.5;
+}
+.registered{
+    color:#8f6d6d;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+.footerBottom{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box  ;
+    border-top: 1px solid #454d5e;
+    height: 79px;
+    
+
+}

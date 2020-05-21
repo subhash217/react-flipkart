@@ -1,0 +1,28 @@
+.productsList{
+    /* display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px; */
+    margin: 8px 5px;
+    height:590px;
+    width:79%;
+    background-color:#fff;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+
+}
+
+.pagination{
+    border-top:1px solid #e4e1e1;
+    padding: 20px;
+}
+
+.page-list >li{
+    display:flex;
+    list-style:none;
+}

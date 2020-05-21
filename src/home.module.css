@@ -1,0 +1,99 @@
+.container{
+    /* /* background-image: url('./assets/logo192.png'); */
+    display:flex;
+    background-color: #2874f0;
+    color:white;
+    height: 40px;
+    padding: 6px;
+    /* position: fixed;
+    top: 0; */
+}
+
+input[type='text']{
+margin-top: 3px;
+margin-left: 267px;   
+height: 35px;
+width: 38%;
+border:none;
+border-radius: 2px;
+padding: 0 16px;
+font-size: 14px;
+box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+.flipkart{
+    height: 20px;
+    position: relative;
+    left: 255px;
+    top: 6px;
+}
+.container .more{
+    font-weight: 500;
+    position: relative;
+    left: 44px;
+    bottom: 9px;
+}
+
+.loginButton{
+    font-size: 14px;
+    color: #2874f0;
+    font-weight: 500;
+    padding: 5px 40px;
+    margin-left: 59px;
+    margin-top: 5px;
+    background-color:white;
+    border: 1px solid #dbdbdb;
+    height: 30px;
+    width: 9%;
+    border-radius: 1px;
+}
+.searchButton{
+    border: none;
+    height: 33px;
+    background-color: #fff;
+    border-radius: 1px;
+    position: relative;
+    top: 4px;
+    right: 42px;
+    cursor: pointer;
+}
+
+.svg{
+    width: 16px;
+    height: 16px;
+    position: relative;
+    left: 69px;
+    top: 10px;
+    margin: 0 8px;
+}
+
+.cart{
+    font-weight: 500;
+    position: relative;
+    left: 61px;
+    bottom: 9px;
+
+}
+
+
+
+.dropdownlist{
+    margin:0;
+    font-weight: 500;
+    font-size:14px;
+    display:flex;
+    justify-content:space-around;
+    background-color: #fff;
+    box-shadow: 1px 1px 1px #aaaaaa;
+}
+.dropdownlist p{
+margin:7px;
+}
+.dropdownlist p:hover{
+    color:#2874f0;
+    cursor: pointer;
+}
+
+.head span{
+font-weight: 500;
+color: #fff;
+}
