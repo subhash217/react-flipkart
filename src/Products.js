@@ -28,9 +28,7 @@ export default class Products extends React.Component {
         .then(res=>res.json())
         .then(data=>{
             this.setState({products:data})
-            // console.log(this.state.products)
-           
-        });
+           });
     }
     render(){
 
@@ -56,7 +54,11 @@ export default class Products extends React.Component {
                 <div className="productsList">
                     <div className="products">
                     {  currentTodo.map((pd,index)=>{
+<<<<<<< HEAD
                      return <p key={index}>{pd.title}</p>
+=======
+                    return <p key={index}>{pd.title}</p>
+>>>>>>> development
                 })  }
                 </div>
                         <div className="pagination">
