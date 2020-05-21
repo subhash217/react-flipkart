@@ -56,7 +56,6 @@ export default class Products extends React.Component {
                 <div className="productsList">
                     <div className="products">
                     {  currentTodo.map((pd,index)=>{
-                    // return <img src={pd.thumbnailUrl} alt="pd"/>
                     return <p key={index}>{pd.title}</p>
                 })  }
                 </div>
