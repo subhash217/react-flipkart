@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 //import logo from './logo.svg';
-import Home from './home';
-import Footer from './Footer';
-import Products from './Products';
-import './App.css';
+import Home from "./home";
+import Footer from "./Footer";
+import Products from "./Products";
+import "./App.css";
 
-function App() {
+const App = () => {
   return (
-    <div >
+    <div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
@@ -24,12 +24,11 @@ function App() {
         
         
       </header> */}
-      <Home/>
-      <Products/>
-      <Footer/>
-      
+      <Home />
+      <Products />
+      <Footer />
     </div>
   );
-}
+};
 
 export default App;
