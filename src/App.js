@@ -1,5 +1,4 @@
 import React from "react";
-//import logo from './logo.svg';
 import Home from "./home";
 import Footer from "./Footer";
 import Products from "./Products";
